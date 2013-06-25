@@ -3,7 +3,7 @@
 class App {
 	public function __construct(){}
 	static $AUTH = "C74ufsshsPHs";
-	static $MONGO_DB_NAME = "rgrs";
+	static $MONGO_DB_NAME = "renderingservice";
 	static $RENDERABLES_COLLECTION = "renderables";
 	static $CACHE_COLLECTION = "cache";
 	static $CONFIG_COLLECTION = "config";
@@ -11,9 +11,6 @@ class App {
 	static $SERVER_HOST;
 	static $ENV = "release";
 	static $BASE_HOST;
-	static $RG_HOST = "http://api.reportgrid.com";
-	static $JS_PATH;
-	static $CSS_PATH;
 	static $BASE_PATH;
 	static $RESET_CSS = "./css/reset.css";
 	static $WKPDF = "DISPLAY=:0  /bin/wkhtmltopdf";
@@ -23,7 +20,7 @@ class App {
 		return App::$BASE_HOST;
 	}
 	static function main() {
-		App::$version = "1.0.5.873";
+		App::$version = "1.0.6.889";
 		$locator = new thx_util_TypeLocator();
 		$locator->memoize(_hx_qtype("model.WKHtmlToImage"), array(new _hx_lambda(array(&$locator), "App_0"), 'execute'));
 		$locator->memoize(_hx_qtype("model.WKHtmlToPdf"), array(new _hx_lambda(array(&$locator), "App_1"), 'execute'));
@@ -67,9 +64,7 @@ class App {
 }
 App::$SERVER_HOST = "http://" . _hx_string_or_null($_SERVER["HTTP_HOST"]);
 App::$BASE_HOST = App::$SERVER_HOST;
-App::$JS_PATH = _hx_string_or_null(App::$RG_HOST) . "/js/";
-App::$CSS_PATH = _hx_string_or_null(App::$RG_HOST) . "/css/";
-App::$BASE_PATH = "/rgrs/" . _hx_string_or_null(App::$ENV) . "/";
+App::$BASE_PATH = "/renderingservice/" . _hx_string_or_null(App::$ENV) . "/";
 function App_0(&$locator) {
 	{
 		return new model_WKHtmlToImage(App::$WKIMAGE);

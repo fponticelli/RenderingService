@@ -22,10 +22,6 @@ class controller_RenderableAPIController extends controller_BaseController {
 		}
 		return $this->output($content, $format, _hx_qtype("template.RenderableDisplay"));
 	}
-	public function validateHtml($html) {
-		$html = strtolower($html);
-		return _hx_index_of($html, "reportgrid", null) >= 0 || _hx_index_of($html, "svg", null) >= 0;
-	}
 	public function tryParseJson($s) {
 		try {
 			return thx_json_Json::decode($s);
@@ -58,10 +54,6 @@ class controller_RenderableAPIController extends controller_BaseController {
 		return $this->success($renderable, $outputformat);
 	}
 	public function makeRenderable($html, $config = null) {
-		if(!$this->validateHtml($html)) {
-			haxe_Log::trace("INVALID HTML: " . _hx_string_or_null($html), _hx_anonymous(array("fileName" => "RenderableAPIController.hx", "lineNumber" => 94, "className" => "controller.RenderableAPIController", "methodName" => "makeRenderable")));
-			throw new HException(new thx_error_Error("invalid content for HTML", null, null, _hx_anonymous(array("fileName" => "RenderableAPIController.hx", "lineNumber" => 95, "className" => "controller.RenderableAPIController", "methodName" => "makeRenderable"))));
-		}
 		$cobj = model_ConfigObjects::createDefault();
 		if(null !== $config && "" !== ($config = trim($config))) {
 			$params = $this->tryParseIni($config);
@@ -69,7 +61,7 @@ class controller_RenderableAPIController extends controller_BaseController {
 				$params = $this->tryParseJson($config);
 			}
 			if(null === $params) {
-				throw new HException(new thx_error_Error("unable to parse the config argument: '{0}', it should be either a valid INI or JSON string", new _hx_array(array($config)), null, _hx_anonymous(array("fileName" => "RenderableAPIController.hx", "lineNumber" => 104, "className" => "controller.RenderableAPIController", "methodName" => "makeRenderable"))));
+				throw new HException(new thx_error_Error("unable to parse the config argument: '{0}', it should be either a valid INI or JSON string", new _hx_array(array($config)), null, _hx_anonymous(array("fileName" => "RenderableAPIController.hx", "lineNumber" => 99, "className" => "controller.RenderableAPIController", "methodName" => "makeRenderable"))));
 			}
 			$cobj = model_ConfigObjects::overrideValues($cobj, $params);
 		}
@@ -139,7 +131,7 @@ class controller_RenderableAPIController extends controller_BaseController {
 		else
 			throw new HException('Unable to call <'.$m.'>');
 	}
-	static $__rtti = "<class path=\"controller.RenderableAPIController\" params=\"\">\x0A\x09<extends path=\"controller.BaseController\"/>\x0A\x09<DEARRAY line=\"123\" static=\"1\"><c path=\"EReg\"/></DEARRAY>\x0A\x09<arrayizee set=\"method\" line=\"124\" static=\"1\"><f a=\"o\">\x0A\x09<d/>\x0A\x09<x path=\"Void\"/>\x0A</f></arrayizee>\x0A\x09<renderables><c path=\"model.RenderableGateway\"/></renderables>\x0A\x09<uploadFromUrl public=\"1\" set=\"method\" line=\"27\"><f a=\"urlhtml:?urlconfig:outputformat\">\x0A\x09<c path=\"String\"/>\x0A\x09<c path=\"String\"/>\x0A\x09<c path=\"String\"/>\x0A\x09<c path=\"ufront.web.mvc.ActionResult\"/>\x0A</f></uploadFromUrl>\x0A\x09<upload public=\"1\" set=\"method\" line=\"53\"><f a=\"html:?config:outputformat\">\x0A\x09<c path=\"String\"/>\x0A\x09<c path=\"String\"/>\x0A\x09<c path=\"String\"/>\x0A\x09<c path=\"ufront.web.mvc.ActionResult\"/>\x0A</f></upload>\x0A\x09<redirect set=\"method\" line=\"65\"><f a=\"params\">\x0A\x09<d/>\x0A\x09<c path=\"ufront.web.mvc.RedirectResult\"/>\x0A</f></redirect>\x0A\x09<uploadAndDisplay public=\"1\" set=\"method\" line=\"71\"><f a=\"html:?config:ext:?forceDownload\">\x0A\x09<c path=\"String\"/>\x0A\x09<c path=\"String\"/>\x0A\x09<c path=\"String\"/>\x0A\x09<x path=\"Bool\"/>\x0A\x09<d/>\x0A</f></uploadAndDisplay>\x0A\x09<makeRenderable public=\"1\" set=\"method\" line=\"90\"><f a=\"html:?config\">\x0A\x09<c path=\"String\"/>\x0A\x09<c path=\"String\"/>\x0A\x09<c path=\"model.Renderable\"/>\x0A</f></makeRenderable>\x0A\x09<display public=\"1\" set=\"method\" line=\"115\"><f a=\"uid:outputformat\">\x0A\x09<c path=\"String\"/>\x0A\x09<c path=\"String\"/>\x0A\x09<c path=\"ufront.web.mvc.ActionResult\"/>\x0A</f></display>\x0A\x09<tryParseIni set=\"method\" line=\"146\"><f a=\"s\">\x0A\x09<c path=\"String\"/>\x0A\x09<unknown/>\x0A</f></tryParseIni>\x0A\x09<tryParseJson set=\"method\" line=\"158\"><f a=\"s\">\x0A\x09<c path=\"String\"/>\x0A\x09<unknown/>\x0A</f></tryParseJson>\x0A\x09<validateHtml set=\"method\" line=\"168\"><f a=\"html\">\x0A\x09<c path=\"String\"/>\x0A\x09<x path=\"Bool\"/>\x0A</f></validateHtml>\x0A\x09<success set=\"method\" line=\"174\"><f a=\"r:format\">\x0A\x09<c path=\"model.Renderable\"/>\x0A\x09<c path=\"String\"/>\x0A\x09<c path=\"ufront.web.mvc.ActionResult\"/>\x0A</f></success>\x0A\x09<serviceUrl set=\"method\" line=\"192\"><f a=\"uid:format\">\x0A\x09<c path=\"String\"/>\x0A\x09<c path=\"String\"/>\x0A\x09<c path=\"String\"/>\x0A</f></serviceUrl>\x0A\x09<new public=\"1\" set=\"method\" line=\"21\"><f a=\"renderables\">\x0A\x09<c path=\"model.RenderableGateway\"/>\x0A\x09<x path=\"Void\"/>\x0A</f></new>\x0A</class>";
+	static $__rtti = "<class path=\"controller.RenderableAPIController\" params=\"\">\x0A\x09<extends path=\"controller.BaseController\"/>\x0A\x09<DEARRAY line=\"118\" static=\"1\"><c path=\"EReg\"/></DEARRAY>\x0A\x09<arrayizee set=\"method\" line=\"119\" static=\"1\"><f a=\"o\">\x0A\x09<d/>\x0A\x09<x path=\"Void\"/>\x0A</f></arrayizee>\x0A\x09<renderables><c path=\"model.RenderableGateway\"/></renderables>\x0A\x09<uploadFromUrl public=\"1\" set=\"method\" line=\"27\"><f a=\"urlhtml:?urlconfig:outputformat\">\x0A\x09<c path=\"String\"/>\x0A\x09<c path=\"String\"/>\x0A\x09<c path=\"String\"/>\x0A\x09<c path=\"ufront.web.mvc.ActionResult\"/>\x0A</f></uploadFromUrl>\x0A\x09<upload public=\"1\" set=\"method\" line=\"53\"><f a=\"html:?config:outputformat\">\x0A\x09<c path=\"String\"/>\x0A\x09<c path=\"String\"/>\x0A\x09<c path=\"String\"/>\x0A\x09<c path=\"ufront.web.mvc.ActionResult\"/>\x0A</f></upload>\x0A\x09<redirect set=\"method\" line=\"65\"><f a=\"params\">\x0A\x09<d/>\x0A\x09<c path=\"ufront.web.mvc.RedirectResult\"/>\x0A</f></redirect>\x0A\x09<uploadAndDisplay public=\"1\" set=\"method\" line=\"71\"><f a=\"html:?config:ext:?forceDownload\">\x0A\x09<c path=\"String\"/>\x0A\x09<c path=\"String\"/>\x0A\x09<c path=\"String\"/>\x0A\x09<x path=\"Bool\"/>\x0A\x09<d/>\x0A</f></uploadAndDisplay>\x0A\x09<makeRenderable public=\"1\" set=\"method\" line=\"90\"><f a=\"html:?config\">\x0A\x09<c path=\"String\"/>\x0A\x09<c path=\"String\"/>\x0A\x09<c path=\"model.Renderable\"/>\x0A</f></makeRenderable>\x0A\x09<display public=\"1\" set=\"method\" line=\"110\"><f a=\"uid:outputformat\">\x0A\x09<c path=\"String\"/>\x0A\x09<c path=\"String\"/>\x0A\x09<c path=\"ufront.web.mvc.ActionResult\"/>\x0A</f></display>\x0A\x09<tryParseIni set=\"method\" line=\"141\"><f a=\"s\">\x0A\x09<c path=\"String\"/>\x0A\x09<unknown/>\x0A</f></tryParseIni>\x0A\x09<tryParseJson set=\"method\" line=\"153\"><f a=\"s\">\x0A\x09<c path=\"String\"/>\x0A\x09<unknown/>\x0A</f></tryParseJson>\x0A\x09<success set=\"method\" line=\"163\"><f a=\"r:format\">\x0A\x09<c path=\"model.Renderable\"/>\x0A\x09<c path=\"String\"/>\x0A\x09<c path=\"ufront.web.mvc.ActionResult\"/>\x0A</f></success>\x0A\x09<serviceUrl set=\"method\" line=\"181\"><f a=\"uid:format\">\x0A\x09<c path=\"String\"/>\x0A\x09<c path=\"String\"/>\x0A\x09<c path=\"String\"/>\x0A</f></serviceUrl>\x0A\x09<new public=\"1\" set=\"method\" line=\"21\"><f a=\"renderables\">\x0A\x09<c path=\"model.RenderableGateway\"/>\x0A\x09<x path=\"Void\"/>\x0A</f></new>\x0A</class>";
 	static $DEARRAY;
 	static function arrayizee($o) {
 		$_g = 0; $_g1 = Reflect::fields($o);
