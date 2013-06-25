@@ -1,0 +1,2323 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Tra",
+				"TraceToFileModule	class"
+			],
+			[
+				"mana",
+				"manager"
+			],
+			[
+				"ma",
+				"manager	var"
+			],
+			[
+				"mag",
+				"margin-bottom"
+			],
+			[
+				"Preco",
+				"PrecogRequest	labcoat.message"
+			],
+			[
+				"su",
+				"success	var"
+			],
+			[
+				"r",
+				"response	var"
+			],
+			[
+				"meta",
+				"metafile	var"
+			],
+			[
+				"ifra",
+				"iframe	var"
+			],
+			[
+				"fot",
+				"font-size"
+			],
+			[
+				"marg",
+				"margin-right"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"backgrou",
+				"background-color"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"bo",
+				"border-radius"
+			],
+			[
+				"tra",
+				"transformMetadataToDatasource	function"
+			],
+			[
+				"is",
+				"isUnknown	function"
+			],
+			[
+				"Respon",
+				"ResponseMetadata	labcoat.message.PrecogResponse"
+			],
+			[
+				"Val",
+				"ValueType	class"
+			],
+			[
+				"Value",
+				"ValueType"
+			],
+			[
+				"Respo",
+				"ResponseMetadata	labcoat.message.PrecogResponse"
+			],
+			[
+				"pa",
+				"paths	var"
+			],
+			[
+				"regi",
+				"region	var"
+			],
+			[
+				"reg",
+				"regiions"
+			],
+			[
+				"data",
+				"datasource"
+			],
+			[
+				"con",
+				"context	var"
+			],
+			[
+				"edo",
+				"editorToolbar"
+			],
+			[
+				"edit",
+				"editorToolbar	var"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"Precog",
+				"PrecogConfig	labcoat.message"
+			],
+			[
+				"DY",
+				"Dynamic"
+			],
+			[
+				"string",
+				"String"
+			],
+			[
+				"iframe",
+				"iframeElement	var"
+			],
+			[
+				"JQU",
+				"JQuery	jQuery"
+			],
+			[
+				"cons",
+				"console"
+			],
+			[
+				"out",
+				"outputElement	var"
+			],
+			[
+				"o",
+				"outputElement	var"
+			],
+			[
+				"que",
+				"quirrel"
+			],
+			[
+				"JQ",
+				"JQuery	jQuery"
+			],
+			[
+				"drop",
+				"dropArea	var"
+			],
+			[
+				"war",
+				"warnings"
+			],
+			[
+				"manager",
+				"ModuleManager"
+			],
+			[
+				"res",
+				"result"
+			],
+			[
+				"fi",
+				"firstChild"
+			],
+			[
+				"ins",
+				"insertBefore"
+			],
+			[
+				"append",
+				"appendChild"
+			],
+			[
+				"margi",
+				"margin-right"
+			],
+			[
+				"ba",
+				"background-image"
+			],
+			[
+				"too",
+				"toolbarHeight"
+			],
+			[
+				"el",
+				"element"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"Tex",
+				"TextAreaEditor"
+			],
+			[
+				"texta",
+				"textarea"
+			],
+			[
+				"JQuer",
+				"JQuery"
+			],
+			[
+				"set",
+				"setCurrentPath"
+			],
+			[
+				"curren",
+				"currentPath"
+			],
+			[
+				"co",
+				"collapsed"
+			],
+			[
+				"colla",
+				"collapse"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"li",
+				"line-height"
+			],
+			[
+				"t",
+				"type"
+			],
+			[
+				"fail",
+				"failureHandler"
+			],
+			[
+				"pro",
+				"promise"
+			],
+			[
+				"up",
+				"updateForm"
+			],
+			[
+				"border",
+				"border-color"
+			],
+			[
+				"Reg",
+				"RegionMode"
+			],
+			[
+				"pad",
+				"padding-right"
+			],
+			[
+				"re",
+				"requests"
+			],
+			[
+				"create",
+				"createFileAt"
+			],
+			[
+				"targ",
+				"targetName"
+			],
+			[
+				"ex",
+				"exists"
+			],
+			[
+				"new",
+				"newpath"
+			],
+			[
+				"val",
+				"validator"
+			],
+			[
+				"valida",
+				"validator"
+			],
+			[
+				"ap",
+				"api"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"e",
+				"enabled"
+			],
+			[
+				"A",
+				"API_CONTEXT"
+			],
+			[
+				"i",
+				"isDirectory"
+			],
+			[
+				"Html",
+				"HtmlPanel"
+			],
+			[
+				"cl",
+				"click"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"node",
+				"nodeToElMap"
+			],
+			[
+				"sta",
+				"start_index"
+			],
+			[
+				"Tree",
+				"TreeNode"
+			],
+			[
+				"sele",
+				"selected"
+			],
+			[
+				"se",
+				"selected"
+			],
+			[
+				"Tr",
+				"TreeNode"
+			],
+			[
+				"me",
+				"metatype"
+			],
+			[
+				"err",
+				"errorResponse"
+			],
+			[
+				"no",
+				"normalizeFilePath"
+			],
+			[
+				"Pro",
+				"Promise"
+			],
+			[
+				"dire",
+				"directories"
+			],
+			[
+				"en",
+				"ensureDirectory"
+			],
+			[
+				"ensu",
+				"ensureFileAt"
+			],
+			[
+				"file",
+				"filePath"
+			],
+			[
+				"load",
+				"loadDir"
+			],
+			[
+				"Mess",
+				"MessageContent"
+			],
+			[
+				"obs",
+				"obfuscator"
+			],
+			[
+				"ob",
+				"obfuscator"
+			],
+			[
+				"Name",
+				"PrecogNamedConfig"
+			],
+			[
+				"lo",
+				"loginModel"
+			],
+			[
+				"com",
+				"communicator"
+			],
+			[
+				"find",
+				"findServiceAndAccount"
+			],
+			[
+				"ac",
+				"accountId"
+			],
+			[
+				"acco",
+				"accountId"
+			],
+			[
+				"try",
+				"tryService"
+			],
+			[
+				"proce",
+				"processLogin"
+			],
+			[
+				"Re",
+				"RequestPrecogCredentials"
+			],
+			[
+				"comm",
+				"communicator"
+			],
+			[
+				"form",
+				"formError"
+			],
+			[
+				"ht",
+				"html"
+			],
+			[
+				"ok",
+				"Ok"
+			],
+			[
+				"cre",
+				"createModel"
+			],
+			[
+				"add",
+				"addField"
+			],
+			[
+				"f",
+				"fields"
+			],
+			[
+				"valu",
+				"valueToString"
+			],
+			[
+				"value",
+				"valueFromString"
+			],
+			[
+				"fiel",
+				"fields"
+			],
+			[
+				"in",
+				"interface	Interface"
+			],
+			[
+				"vali",
+				"validate"
+			],
+			[
+				"us",
+				"useValidation"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "ufront/php/ufront/web/HttpRequest.hx",
+			"settings":
+			{
+				"buffer_size": 6694,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "ufront/php/ufront/web/HttpResponse.hx",
+			"settings":
+			{
+				"buffer_size": 3183,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "rgrs.sublime-project",
+			"settings":
+			{
+				"buffer_size": 121,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/App.hx",
+			"settings":
+			{
+				"buffer_size": 6168,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/model/ConfigObjects.hx",
+			"settings":
+			{
+				"buffer_size": 8852,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "ufront/ufront/web/mvc/view/FormatHelper.hx",
+			"settings":
+			{
+				"buffer_size": 1113,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/model/WKHtml.hx",
+			"settings":
+			{
+				"buffer_size": 4754,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "ufront/php/ufront/web/FileSession.hx",
+			"settings":
+			{
+				"buffer_size": 3583,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "ufront/ufront/web/module/TraceToFileModule.hx",
+			"settings":
+			{
+				"buffer_size": 1071,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "ufront/ufront/web/mvc/FilePathResult.hx",
+			"settings":
+			{
+				"buffer_size": 726,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "ufront/ufront/web/mvc/MvcHandler.hx",
+			"settings":
+			{
+				"buffer_size": 1361,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "ufront/ufront/web/mvc/view/ErazorViewEngine.hx",
+			"settings":
+			{
+				"buffer_size": 2178,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "ufront/ufront/web/mvc/view/HTemplateViewEngine.hx",
+			"settings":
+			{
+				"buffer_size": 2079,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "ufront/ufront/web/SaveToDirectoryUploadHandler.hx",
+			"settings":
+			{
+				"buffer_size": 1077,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "build.hxml",
+			"settings":
+			{
+				"buffer_size": 137,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "release.hxml",
+			"settings":
+			{
+				"buffer_size": 152,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/HaXe/Hxml.sublime-build",
+	"command_palette":
+	{
+		"height": 67.0,
+		"selected_items":
+		[
+			[
+				"upda",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"Ha",
+				"Haxe: Restart Server"
+			],
+			[
+				"Haxe",
+				"Haxe: Manage libraries"
+			],
+			[
+				"Pac",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"upper",
+				"Convert Case: Upper Case"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Insta",
+				"Package Control: Install Package"
+			],
+			[
+				"git",
+				"Package Control: Install Package"
+			],
+			[
+				"tr",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"tra",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"pac",
+				"Package Control: Remove Package"
+			],
+			[
+				"t",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"todo",
+				"Show TODOs in project and open files"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"ter",
+				"Preferences: Terminal Settings – Default"
+			],
+			[
+				"clas",
+				"Snippet: Class"
+			],
+			[
+				"tre",
+				"Set Syntax: Regular Expression"
+			],
+			[
+				"re",
+				"Set Syntax: Regular Expression"
+			],
+			[
+				"tri",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"tria",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"trai",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insl",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Set Syntax: HaXe2"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 310.0,
+		"history":
+		[
+			"ls",
+			"codecs.open",
+			"codecs",
+			"cd Packages/"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/francoponticelli/Projects/reportgrid/visualizations/servicessrc/charts/build.hxml",
+		"/Users/francoponticelli/Projects/ReportGridRS/build.hxml",
+		"/Users/francoponticelli/Projects/ReportGridRS/src/App.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/src/controller/UploadFormController.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/src/controller/RenderableAPIController.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/thx/thx/ini/Ini.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/bin/release/.htaccess",
+		"/Users/francoponticelli/Projects/ReportGridRS/bin/debug/.htaccess",
+		"/Users/francoponticelli/Projects/ReportGridRS/bin/.htaccess",
+		"/Users/francoponticelli/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/francoponticelli/Projects/reportgrid/visualizations/servicessrc/charts/release.hxml",
+		"/Users/francoponticelli/Projects/ReportGridRS/src/util/Erazors.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/src/controller/BaseController.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/src/controller/SetupController.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/src/controller/HomeController.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/src/controller/DownloadAPIController.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/src/model/ConfigTemplate.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/ufront/ufront/web/mvc/ViewResult.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/ufront/ufront/web/mvc/ForwardResult.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/src/model/ConfigObjects.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/src/model/WKHtml.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/thx/Ints.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/ufront/ufront/acl/Acl.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/ufront/ufront/acl/Registry.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/ufront/ufront/web/mvc/ControllerActionInvoker.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/ufront/ufront/web/mvc/DefaultControllerFactory.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/ufront/ufront/web/mvc/view/ErazorViewEngine.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/ufront/ufront/web/mvc/view/UrlHelper.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/ufront/ufront/web/mvc/view/FormatHelper.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/ufront/ufront/web/module/TraceToFileModule.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/ufront/ufront/web/mvc/MvcApplication.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/src/model/LogGateway.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/ufront/ufront/web/routing/HttpMethodConstraint.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/ufront/ufront/web/routing/ValuesConstraint.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/src/util/TraceToMongo.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/thx/thx/ini/IniDecoder.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/thx/thx/ini/IniEncoder.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/src/model/Renderable.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/src/model/ConfigPdf.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/thx/thx/culture/FormatParams.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/thx/thx/date/Milli.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/thx/thx/data/ValueHandler.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/thx/thx/html/HtmlFormat.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/ufront/ufront/web/module/ErrorModule.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/ufront/ufront/web/mvc/attributes/AuthorizeAttribute.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/ufront/ufront/web/mvc/view/HTemplateViewEngine.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/ufront/ufront/web/mvc/view/UFormControllerAdapter.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/ufront/ufront/web/mvc/view/UFormHelper.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/ufront/ufront/web/mvc/view/TemplateHelper.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/ufront/ufront/web/routing/Route.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/ufront/ufront/web/routing/LocalizedRoute.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/ufront/ufront/web/routing/RouteCollection.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/thx/thx/core/Hashes.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/thx/thx/core/Arrays.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/thx/thx/core/Bools.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/thx/thx/core/Dates.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/thx/thx/core/Dynamics.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/thx/thx/core/DynamicsT.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/thx/thx/core/Enums.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/thx/thx/core/Floats.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/thx/thx/core/Func.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/thx/thx/core/IntHashes.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/thx/thx/core/Ints.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/thx/thx/core/Iterables.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/thx/thx/core/Iterators.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/thx/thx/core/Objects.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/thx/thx/core/Strings.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/thx/thx/core/Types.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/src/template/RenderableDisplay.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/src/template/RenderablesInfo.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/src/model/CacheGateway.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/thx/thx/color/Colors.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/thx/thx/csv/Csv.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/thx/thx/date/DateParser.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/thx/thx/geom/layout/Chord.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/thx/thx/geom/layout/Pie.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/thx/thx/geom/layout/Stack.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/thx/thx/geom/layout/Tree.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/thx/thx/geom/Polygon.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/thx/thx/graph/EdgeSplitter.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/thx/thx/graph/Graph.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/thx/thx/graph/GraphEdges.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/thx/thx/graph/GraphLayout.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/thx/thx/graph/Graphs.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/thx/thx/graph/GreedySwitch2Decrosser.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/thx/thx/graph/GreedySwitchDecrosser.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/thx/thx/graph/HeaviestNodeLayer.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/thx/thx/graph/SugiyamaMethod.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/thx/thx/math/scale/Linear.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/thx/thx/math/scale/LinearTime.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/thx/thx/math/scale/Log.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/thx/thx/math/scale/NumericScale.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/thx/thx/math/scale/Ordinal.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/thx/thx/math/scale/Pow.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/thx/thx/math/scale/Quantile.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/thx/thx/number/NumberParser.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/thx/thx/svg/Diagonal.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/thx/thx/svg/PathGeoJson.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/ufront/ufront/web/mvc/HtmlViewResult.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/thx/thx/error/Error.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/thx/thx/html/HtmlDocumentFormat.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/thx/thx/util/Message.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/thx/thx/util/Results.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/thx/thx/xml/AutoDocumentFormat.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/ufront/neko/ufront/web/HttpRequest.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/ufront/php/ufront/web/HttpRequest.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/src/model/Sample.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/src/template/FormUpload.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/src/template/GistUpload.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/src/template/Logs.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/src/template/MongoDBStatus.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/ufront/ufront/web/HttpApplication.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/src/template/Error.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/src/template/Home.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/ufront/ufront/web/module/ErrorController.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/ufront/ufront/web/mvc/ControllerBase.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/ufront/ufront/web/mvc/ControllerBuilder.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/ufront/ufront/web/HttpRequest.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/ufront/php/ufront/web/FileSession.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/thx/DynamicsT.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/thx/thx/text/ERegs.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/thx/Hashes.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/ufront/ufront/web/mvc/MvcHandler.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/ufront/ufront/web/mvc/ValueProviderResult.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/ufront/ufront/web/mvc/view/ITemplateViewEngine.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/ufront/ufront/web/mvc/view/ITemplateView.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/erazor/erazor/Template.hx",
+		"/Users/francoponticelli/Projects/ReportGridRS/erazor/erazor/macro/Build.hx"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"*.hx,/Users/francoponticelli/Projects/ReportGridRS",
+			"*.hx,/Users/francoponticelli/Projects/reportgrid/labcoat",
+			"*.hx,/Users/francoponticelli/Projects/dhx,/Users/francoponticelli/Projects/thx,/Users/francoponticelli/Projects/reportgrid/visualizations/charts,/Users/francoponticelli/Projects/reportgrid/visualizations/lib,/Users/francoponticelli/Projects/reportgrid/visualizations/query",
+			"/Users/francoponticelli/Documents/scripts/haxesrc/haxe/,-*.php,-*.cm*,-*.n,-*.bin,-*.swf,-haxe",
+			"/Users/francoponticelli/Documents/scripts/haxesrc/haxe/,-*.php,-*.cm*,-haxe",
+			"/Users/francoponticelli/Documents/scripts/haxesrc/haxe/,-*.php,-*.cmo,-haxe",
+			"/Users/francoponticelli/Documents/scripts/haxesrc/haxe/,-*.php",
+			"/Users/francoponticelli/Documents/scripts/haxesrc/haxe/",
+			"/Users/francoponticelli/Documents/scripts/haxesrc/haxe/std",
+			"/Users/francoponticelli/Projects/reportgrid/visualizations,*.hx,/Users/francoponticelli/Projects/thx/src,/Users/francoponticelli/Projects/dhx",
+			"/Users/francoponticelli/Projects/reportgrid/visualizations,*.hx,/Users/francoponticelli/Projects/thx/src",
+			"/Users/francoponticelli/Projects/reportgrid/visualizations,*.hx",
+			"/Users/francoponticelli/Projects/reportgrid/visualizations",
+			"/Users/francoponticelli/Projects/extern/caffeine-hx/ext3",
+			"/Users/francoponticelli/Projects/reportgrid/visualizations/charts,/Users/francoponticelli/Projects/reportgrid/visualizations/lib,/Users/francoponticelli/Projects/thx/src/,*.hx",
+			"/Users/francoponticelli/Projects/reportgrid/visualizations/charts,/Users/francoponticelli/Projects/reportgrid/visualizations/lib,*.hx",
+			"/Users/francoponticelli/Projects/reportgrid/visualizations,*.hx",
+			"/Users/francoponticelli/Projects/dhx,*.hx",
+			"/Users/francoponticelli/Projects/reportgrid/visualizations,*.hx",
+			"/Users/francoponticelli/Projects/reportgrid/visualization,*.hx",
+			"/Users/francoponticelli/Projects/reportgrid,*.hx",
+			"/Users/francoponticelli/Projects/dhx,*.hx",
+			"/Users/francoponticelli/Projects/thx,*.hx",
+			"/Users/francoponticelli/Projects/reportgrid/visualizations/lib,*.hx",
+			"/Users/francoponticelli/Projects/reportgrid/visualizations/charts,*.hx",
+			"/Users/francoponticelli/Projects/reportgrid/visualizations,*.hx",
+			"/Users/francoponticelli/Projects/reportgrid/visualizations/charts,*.hx",
+			"/Users/francoponticelli/Projects/reportgrid/charts,*.hx",
+			"/Users/francoponticelli/Projects/reportgrid/visualizations,*.hx",
+			"/Users/francoponticelli/Projects/reportgrid/visualizations",
+			"/Users/francoponticelli/Projects/reportgrid/visualizations/",
+			"/Users/francoponticelli/Projects/reportgrid/visualizations/,*.hx",
+			"/Users/francoponticelli/Projects/reportgrid/visualizations/*.hx",
+			"/Users/francoponticelli/Projects/reportgrid/visualizations",
+			"/Users/francoponticelli/Projects/",
+			"/Users/francoponticelli/Projects/reportgrid/visualizations/",
+			"/Users/francoponticelli/Projects/reportgrid/visualizations/lib",
+			"/Users/francoponticelli/Projects/reportgrid/visualizations/",
+			"/Users/francoponticelli/Projects/reportgrid/visualizations/charts",
+			"/Users/francoponticelli/Projects/reportgrid/website",
+			"/Users/francoponticelli/Projects/reportgrid/visualizations",
+			"/Users/francoponticelli/Projects/thx/src/thx/js",
+			"/Users/francoponticelli/Projects/thx/src/js",
+			"/Users/francoponticelli/Projects/reportgrid/visualizations/",
+			"/Users/francoponticelli/Projects/reportgrid/visualizations/visualizations/src",
+			"/Users/francoponticelli/Projects/reportgrid/visualizations/visualizations/test",
+			"/Users/francoponticelli/Projects/reportgrid/visualizations/visualizations/src",
+			"/Users/francoponticelli/Projects/reportgrid/visualizations/visualizations",
+			"/Users/francoponticelli/Projects/reportgrid/visualizations/src/main/haxe/vis"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"thx.sys",
+			"trace",
+			"makeRenderable",
+			"success",
+			"__P",
+			"using Types;",
+			"import DynamicsT;",
+			"using DynamicsT;",
+			"using Hashes;",
+			"using Strings;",
+			"using Arrays;\\n",
+			"inline ",
+			"toHash",
+			"setValueProvider",
+			"getValueProvider",
+			"new Hash(",
+			"Infos",
+			"map",
+			"Hash<",
+			"-dev ",
+			"trace",
+			"ResponseDire",
+			"ResponseNotebookMove",
+			"ensureFileAt",
+			"slider",
+			"execute",
+			"load",
+			"1",
+			"agentChatsByDateQuery",
+			"query",
+			"$",
+			"getNodeType",
+			"listChi",
+			"listCh",
+			"ResponseMetadata",
+			"trace",
+			"temp",
+			"ResponseListChildren",
+			"listCh",
+			"ResponseMetadata",
+			" 0000000094",
+			" Boot.hx:45",
+			"StatusMessage",
+			"trace",
+			"evaluate",
+			"requireField",
+			"chart-details",
+			"details",
+			"simpleCol",
+			"cf",
+			"chartbui",
+			"polar",
+			"new-layer",
+			"btn-lar",
+			"menu-ite",
+			"data-pa",
+			"selectorWidth",
+			"content",
+			"menu-item-container",
+			"menu-",
+			"btn-fl",
+			"menu-item",
+			"data-pan",
+			"template",
+			"make",
+			"newCustomChart",
+			"@dashboardView",
+			"QuickAddView",
+			"newCustomChart",
+			"dropd",
+			"select-icon",
+			"select-",
+			"dropd",
+			"font-weight",
+			"font-size",
+			"color: white",
+			"single",
+			"white",
+			"btn-large",
+			"metric-icon",
+			"10px",
+			"title",
+			"draggable",
+			"droppab",
+			"droppable",
+			"metric",
+			"border-bottom",
+			"icongBackgroundColor",
+			"BackgroundColor",
+			"175",
+			".metric",
+			"999",
+			".metric",
+			"metric",
+			"font-fam",
+			"font-size",
+			"font-s",
+			"scrollbar",
+			".arrow ",
+			"arrow",
+			"icon",
+			"arrow",
+			".metri",
+			"padding-top",
+			"dashboar",
+			"header",
+			"some",
+			"Vow",
+			"Datasource",
+			"trimr",
+			"OptQuery",
+			"ResMetadata",
+			"ProcMetadata",
+			"MetadataChildren",
+			"RequestMetadataChildren",
+			"MetadataChildren",
+			"metadata children",
+			"MetadataChildren",
+			"metadata children",
+			"MetadataChildren",
+			"regions",
+			"read",
+			"'",
+			"tabs",
+			"btn-",
+			"tabs",
+			"20",
+			".region"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"sys",
+			"using thx.core.Types;",
+			"import thx.core.DynamicsT;",
+			"using thx.core.DynamicsT;",
+			"using thx.core.Hashes;",
+			"using thx.core.Strings;",
+			"",
+			"toMap",
+			"set_valueProvider",
+			"get_valueProvider",
+			"new Map(",
+			"Map<String, ",
+			"labcoat.module",
+			"labcoat.message",
+			"labcoat.config.ViewConfig",
+			"precog.fs",
+			"Locale",
+			"precog.util.Locale",
+			"ArrowDown",
+			"ArrowUp",
+			"ArrowRight",
+			"ArrowLeft",
+			"V",
+			"E",
+			"M",
+			"J",
+			"L",
+			"B",
+			"A",
+			"P",
+			"O",
+			"H",
+			"D",
+			"U",
+			"C",
+			"S",
+			"R",
+			" \\1***\\2",
+			"js.Browser",
+			"	@:isVar public static var language(get_language, null)",
+			"static function get_language()",
+			"static function __init__() { get_culture(); }",
+			"static function get_culture() ",
+			"@:isVar public static var culture(get, null)",
+			"public static var language(get_language, null)",
+			"static function __init__() { get_language(); }",
+			"@:isVar public static var culture(get_culture, null)",
+			"",
+			"Dynamic",
+			"using rg.info.filter.FilterDescription;",
+			"int",
+			"h.intValue(",
+			"handler.intValue(",
+			"function intValue(",
+			"handler.intValue(",
+			"h.intValue(",
+			"h.stringValue(",
+			"handler.stringValue(",
+			"function stringValue(",
+			"function boolValue(",
+			"handler.boolValue(",
+			"handler.dateValue(",
+			"function dateValue(",
+			"Assert.notNull",
+			"Assert.isNull",
+			"empty(",
+			"dhx.Dom",
+			"dhx.Selection",
+			"dhx.Dom",
+			"dhx.Selection",
+			"rg.axis.AxisOrdinal",
+			"rg.axis.AxisTime",
+			"import rg.axis.AxisNumeric;",
+			"rg.axis.AxisOrdinalStats",
+			"rg.axis.AxisOrdinalFixedValues",
+			"rg.axis.AxisGroupByTime",
+			"rg.axis.ITickmark",
+			"rg.axis.IAxis",
+			"rg.axis.Stats",
+			"rg.axis.ScaleDistribution",
+			"rg.visualization.Visualizations",
+			"rg.",
+			"VariableProcessor",
+			", \"",
+			" : ",
+			"},\n	",
+			",\n	",
+			" }",
+			"{ ",
+			"\\1\n\\2",
+			"\nL",
+			"\\1\"",
+			"\\1, summerGold : \\2, summerSilver : \\3, summerBronze : \\4, summerTotal : \\5, winters : \\6, winterGold : \\7, winterSilver : \\8, winterBronze : \\9, winterTotal : \\10, games : \\11, golds : \\12, silvers : \\13, bronzes : \\14, total : \\15 },",
+			"\"\\1\", code : \"\\2\", summers : ",
+			"	",
+			"	{ model : \"\\1\",	region : \"\\2\",	market : \"\\3\",	 quarter : \"\\4\",	value : \\5.0 },",
+			"{ model : \"\\1\",	region : \"\\2\",	market : \"\\3\",	 quarter : \"\\4\",	value : \"\\5\" },",
+			" : ",
+			"{ ",
+			"	",
+			"\",",
+			"{ model : \"\\1\", region : \"\\2\", market : \"\\3\", quarter : \"\\4\", value : \\5 },",
+			"snowCover",
+			"precipitation",
+			"tAverage",
+			"tMax",
+			"tMin",
+			"	deathRate : \\2,	race : \"\\1\"",
+			"{ year : \\1,	deathRate : \\2 },",
+			"snowcover : 0",
+			"snow : 0.0",
+			"precip : 0.00",
+			", tmax : \\1, tmin : \\2, precip : \\3, snow : \\4, snowcover : \\5 }, ",
+			"null",
+			"\"\\1\\2",
+			"{ \"time:day\" : \"\\1-0\\2-0\\3\", ",
+			", tmax : \\1, tmin : \\2, precip : \\3, snow : \\4, snowcover : \\5 },",
+			"null",
+			"\"\\1\\2",
+			"\"\\1-\\2",
+			"{ \"time:day\" : \"\\1-0\\2-0\\3\", ",
+			"{ \"time:day\" : \"\\1-\\2-\\3\", ",
+			"{ \"time:day\" : \"%1-%2-%3\", ",
+			"head",
+			"tail",
+			"head",
+			"tail",
+			"newhead"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": true,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "ufront/php/ufront/web/HttpRequest.hx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6694,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								126,
+								126
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Haxe/Haxe.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "ufront/php/ufront/web/HttpResponse.hx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3183,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								80,
+								80
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Haxe/Haxe.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "rgrs.sublime-project",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 121,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								110,
+								110
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/App.hx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6168,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								783,
+								783
+							]
+						],
+						"settings":
+						{
+							"haxe-current-build-id": 0,
+							"syntax": "Packages/Haxe/Haxe.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/model/ConfigObjects.hx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8852,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								642,
+								642
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Haxe/Haxe.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "ufront/ufront/web/mvc/view/FormatHelper.hx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1113,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								207,
+								209
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Haxe/Haxe.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 58.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/model/WKHtml.hx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4754,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3601,
+								3601
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Haxe/Haxe.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2151.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "ufront/php/ufront/web/FileSession.hx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3583,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								142,
+								142
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Haxe/Haxe.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "ufront/ufront/web/module/TraceToFileModule.hx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1071,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1029,
+								1026
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Haxe/Haxe.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 149.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "ufront/ufront/web/mvc/FilePathResult.hx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 726,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Haxe/Haxe.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "ufront/ufront/web/mvc/MvcHandler.hx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1361,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								75,
+								75
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Haxe/Haxe.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "ufront/ufront/web/mvc/view/ErazorViewEngine.hx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2178,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Haxe/Haxe.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "ufront/ufront/web/mvc/view/HTemplateViewEngine.hx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2079,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Haxe/Haxe.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "ufront/ufront/web/SaveToDirectoryUploadHandler.hx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1077,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								514,
+								514
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Haxe/Haxe.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "build.hxml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 137,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								137,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Haxe/Hxml.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "release.hxml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 152,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								121,
+								121
+							]
+						],
+						"settings":
+						{
+							"haxe-current-build-id": 0,
+							"syntax": "Packages/Haxe/Hxml.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 27.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 167.0
+	},
+	"output.haxe":
+	{
+		"height": 142.0
+	},
+	"project": "rgrs.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"app",
+				"src/App.hx"
+			],
+			[
+				"ini.",
+				"thx/thx/ini/Ini.hx"
+			],
+			[
+				"httpre",
+				"ufront/php/ufront/web/HttpRequest.hx"
+			],
+			[
+				"controller",
+				"ufront/ufront/web/mvc/ControllerBuilder.hx"
+			],
+			[
+				"filter",
+				"ufront/ufront/web/mvc/attributes/FilterAttribute.hx"
+			],
+			[
+				"iauthor",
+				"ufront/ufront/web/mvc/IAuthorizationFilter.hx"
+			],
+			[
+				"",
+				"[[{agentName : \"Blake\", date : \"31\", count : 36, y"
+			],
+			[
+				"pol",
+				"labcoat/src/precog/editor/PolychartBuilderEditor.hx"
+			],
+			[
+				"tree",
+				"labcoat/src/precog/html/HtmlTree.hx"
+			],
+			[
+				"precogmod",
+				"labcoat/src/labcoat/module/model/PrecogModule.hx"
+			],
+			[
+				"precogmo",
+				"labcoat/src/labcoat/module/model/PrecogModule.hx"
+			],
+			[
+				"precogre",
+				"labcoat/src/labcoat/message/PrecogRequest.hx"
+			],
+			[
+				"labc",
+				"labcoat/css/labcoat.less"
+			],
+			[
+				"bootstr",
+				"labcoat/src/precog/html/Bootstrap.hx"
+			],
+			[
+				"precog.js",
+				"labcoat/src/precog/api/precog.js"
+			],
+			[
+				"auth",
+				"labcoat/src/labcoat/module/model/PrecogAuthModule.hx"
+			],
+			[
+				"confi",
+				"labcoat/src/labcoat/message/PrecogConfig.hx"
+			],
+			[
+				"tre",
+				"labcoat/src/labcoat/module/view/TreeViewModule.hx"
+			],
+			[
+				"bootstra",
+				"labcoat/src/precog/html/Bootstrap.hx"
+			],
+			[
+				"modeltyper",
+				"labcoat/src/precog/util/ModelTyper.hx"
+			],
+			[
+				"precogm",
+				"labcoat/src/labcoat/module/model/PrecogModule.hx"
+			],
+			[
+				"poly",
+				"labcoat/src/precog/editor/PolychartBuilderEditor.hx"
+			],
+			[
+				"la",
+				"labcoat/css/labcoat.less"
+			],
+			[
+				"polyc",
+				"labcoat/src/precog/editor/PolychartBuilderEditor.hx"
+			],
+			[
+				"boo",
+				"labcoat/src/precog/html/Bootstrap.hx"
+			],
+			[
+				"strings",
+				"thx.core/src/thx/core/Strings.hx"
+			],
+			[
+				"modelty",
+				"labcoat/src/precog/util/ModelTyper.hx"
+			],
+			[
+				"treeview",
+				"labcoat/src/labcoat/module/view/TreeViewModule.hx"
+			],
+			[
+				"reg",
+				"labcoat/src/precog/editor/Region.hx"
+			],
+			[
+				"code",
+				"labcoat/src/precog/editor/CodeEditor.hx"
+			],
+			[
+				"codee",
+				"labcoat/src/precog/editor/CodeEditor.hx"
+			],
+			[
+				"note",
+				"labcoat/src/precog/editor/Notebook.hx"
+			],
+			[
+				"region",
+				"labcoat/src/precog/editor/Region.hx"
+			],
+			[
+				"quirr",
+				"labcoat/src/precog/editor/QuirrelEditor.hx"
+			],
+			[
+				"labco",
+				"labcoat/css/labcoat.less"
+			],
+			[
+				"regionmo",
+				"labcoat/src/precog/editor/RegionModifier.hx"
+			],
+			[
+				"regionm",
+				"labcoat/src/precog/editor/RegionModifier.hx"
+			],
+			[
+				"lab",
+				"labcoat/css/labcoat.less"
+			],
+			[
+				"dra",
+				"labcoat/src/labcoat/message/RegionDrag.hx"
+			],
+			[
+				"responder",
+				"thx.react/src/thx/react/Responder.hx"
+			],
+			[
+				"localiza",
+				"labcoat/src/precog/module/config/LocalizationAdvisorModule.hx"
+			],
+			[
+				"versionmo",
+				"labcoat/src/precog/module/api/VersionModule.hx"
+			],
+			[
+				"quirre",
+				"labcoat/src/precog/editor/QuirrelEditor.hx"
+			],
+			[
+				"codeedi",
+				"labcoat/src/precog/editor/CodeEditor.hx"
+			],
+			[
+				"actionsm",
+				"labcoat/src/labcoat/module/view/fstreeview/ActionsModule.hx"
+			],
+			[
+				"statusba",
+				"labcoat/src/labcoat/module/view/StatusbarModule.hx"
+			],
+			[
+				"mainla",
+				"labcoat/src/labcoat/module/view/MainLayoutModule.hx"
+			],
+			[
+				"loginmod",
+				"labcoat/src/labcoat/module/view/LoginModule.hx"
+			],
+			[
+				"editorm",
+				"labcoat/src/labcoat/module/view/EditorModule.hx"
+			],
+			[
+				"editormo",
+				"labcoat/src/labcoat/module/view/EditorModule.hx"
+			],
+			[
+				"quirrel",
+				"labcoat/src/precog/editor/QuirrelEditor.hx"
+			],
+			[
+				"precgo",
+				"labcoat/src/precog/api/Precog.hx"
+			],
+			[
+				"response",
+				"labcoat/src/labcoat/message/PrecogResponse.hx"
+			],
+			[
+				"qui",
+				"labcoat/src/precog/editor/QuirrelEditor.hx"
+			],
+			[
+				"statusmo",
+				"labcoat/src/labcoat/module/view/StatusModule.hx"
+			],
+			[
+				"fsh",
+				"labcoat/src/precog/html/FSHtmlTreeRenderer.hx"
+			],
+			[
+				"htmltr",
+				"labcoat/src/precog/html/HtmlTree.hx"
+			],
+			[
+				"htmlt",
+				"labcoat/src/precog/html/HtmlTree.hx"
+			],
+			[
+				"viewc",
+				"labcoat/src/labcoat/config/ViewConfig.hx"
+			],
+			[
+				"view",
+				"labcoat/src/labcoat/config/ViewConfig.hx"
+			],
+			[
+				"texta",
+				"labcoat/src/precog/editor/TextAreaEditor.hx"
+			],
+			[
+				"texted",
+				"labcoat/src/precog/editor/TextEditor.hx"
+			],
+			[
+				"json",
+				"labcoat/src/precog/editor/JSONEditor.hx"
+			],
+			[
+				"codemirror.hx",
+				"labcoat/src/precog/editor/codemirror/Externs.hx"
+			],
+			[
+				"jsone",
+				"labcoat/src/precog/editor/JSONEditor.hx"
+			],
+			[
+				"node",
+				"labcoat/src/precog/fs/Node.hx"
+			],
+			[
+				"precog",
+				"labcoat/src/precog/api/Precog.hx"
+			],
+			[
+				"precogmode",
+				"labcoat/src/labcoat/module/model/PrecogModule.hx"
+			],
+			[
+				"treev",
+				"labcoat/src/precog/app/module/view/TreeViewModule.hx"
+			],
+			[
+				"vers",
+				"labcoat/src/precog/app/module/api/VersionModule.hx"
+			],
+			[
+				"versui",
+				"labcoat/src/precog/app/module/api/VersionModule.hx"
+			],
+			[
+				"qu",
+				"labcoat/src/precog/editor/QuirrelEditor.hx"
+			],
+			[
+				"precogres",
+				"labcoat/src/precog/app/message/PrecogResponse.hx"
+			],
+			[
+				"labcoatac",
+				"labcoat/src/precog/html/LabcoatAccountWindow.hx"
+			],
+			[
+				"regio",
+				"labcoat/src/precog/editor/RegionEditor.hx"
+			],
+			[
+				"contain",
+				"labcoat/src/precog/app/module/view/ContainerModule.hx"
+			],
+			[
+				"fsht",
+				"labcoat/src/precog/html/FSHtmlTreeRenderer.hx"
+			],
+			[
+				"htmlp",
+				"labcoat/src/precog/html/HtmlPanelGroup.hx"
+			],
+			[
+				"mar",
+				"labcoat/src/precog/editor/MarkdownEditor.hx"
+			],
+			[
+				"quir",
+				"labcoat/src/precog/editor/QuirrelEditor.hx"
+			],
+			[
+				"regi",
+				"labcoat/src/precog/editor/Region.hx"
+			],
+			[
+				"preco",
+				"labcoat/src/precog/app/module/model/PrecogModule.hx"
+			],
+			[
+				"htmld",
+				"labcoat/src/precog/html/HtmlDropdown.hx"
+			],
+			[
+				"account",
+				"labcoat/src/precog/html/LabcoatAccountWindow.hx"
+			],
+			[
+				"bootr",
+				"labcoat/src/precog/html/Bootstrap.hx"
+			],
+			[
+				"pre",
+				"labcoat/src/precog/api/Precog.hx"
+			],
+			[
+				"dire",
+				"labcoat/src/precog/util/fs/Directory.hx"
+			],
+			[
+				"precom",
+				"labcoat/src/precog/app/module/model/PrecogModule.hx"
+			],
+			[
+				"float",
+				"src/Floats.hx"
+			],
+			[
+				"scale",
+				"thx/src/thx/math/scale/NumericScale.hx"
+			],
+			[
+				"scatter",
+				"lib/src/rg/svg/chart/ScatterGraph.hx"
+			],
+			[
+				"dyna",
+				"src/Dynamics.hx"
+			],
+			[
+				"jsb",
+				"charts/src/rg/app/charts/JSBridge.hx"
+			],
+			[
+				"piec",
+				"lib/src/rg/svg/chart/PieChart.hx"
+			],
+			[
+				"infovi",
+				"lib/src/rg/info/InfoVisualizationType.hx"
+			],
+			[
+				"info",
+				"lib/src/rg/info/InfoStreamGraph.hx"
+			],
+			[
+				"svgsymbolbuilder",
+				"lib/src/rg/svg/util/SVGSymbolBuilder.hx"
+			],
+			[
+				"linech",
+				"lib/src/rg/svg/chart/LineChart.hx"
+			],
+			[
+				"infosca",
+				"lib/src/rg/info/InfoScatterGraph.hx"
+			],
+			[
+				"visua",
+				"lib/src/rg/visualization/VisualizationCartesian.hx"
+			],
+			[
+				"fac",
+				"lib/src/rg/factory/FactoryLayout.hx"
+			],
+			[
+				"vis",
+				"lib/src/rg/visualization/Visualization.hx"
+			],
+			[
+				"visualizations",
+				"lib/src/rg/visualization/Visualizations.hx"
+			],
+			[
+				"layout",
+				"lib/src/rg/layout/Layout.hx"
+			],
+			[
+				"rgcss",
+				"lib/src/rg/svg/util/RGCss.hx"
+			],
+			[
+				"heatgr",
+				"lib/src/rg/svg/chart/HeatGrid.hx"
+			],
+			[
+				"map",
+				"lib/src/rg/svg/widget/Map.hx"
+			],
+			[
+				"infoh",
+				"lib/src/rg/info/InfoHeatGrid.hx"
+			],
+			[
+				"colorsca",
+				"lib/src/rg/svg/chart/ColorScaleModes.hx"
+			],
+			[
+				"colorscalemode",
+				"lib/src/rg/svg/chart/ColorScaleMode.hx"
+			],
+			[
+				"infomap",
+				"lib/src/rg/info/InfoMap.hx"
+			],
+			[
+				"azi",
+				"src/thx/geo/Azimuthal.hx"
+			],
+			[
+				"merca",
+				"src/thx/geo/Mercator.hx"
+			],
+			[
+				"visualizationg",
+				"lib/src/rg/visualization/VisualizationGeo.hx"
+			],
+			[
+				"infom",
+				"lib/src/rg/info/InfoMap.hx"
+			],
+			[
+				"geo",
+				"lib/src/rg/svg/chart/Geo.hx"
+			],
+			[
+				"infosan",
+				"lib/src/rg/info/InfoSankey.hx"
+			],
+			[
+				"visu",
+				"lib/src/rg/visualization/VisualizationSankey.hx"
+			],
+			[
+				"sankey",
+				"lib/src/rg/svg/chart/Sankey.hx"
+			],
+			[
+				"iblo",
+				"ext3/chx/crypt/IBlockCipher.hx"
+			],
+			[
+				"rsa",
+				"ext3/chx/crypt/RSA.hx"
+			],
+			[
+				"out",
+				"ext3/chx/io/Output.hx"
+			],
+			[
+				"bytesin",
+				"ext3/chx/io/BytesInput.hx"
+			],
+			[
+				"input",
+				"ext3/chx/io/Input.hx"
+			],
+			[
+				"bi",
+				"ext3/math/BigInteger.hx"
+			],
+			[
+				"ip",
+				"ext3/chx/crypt/IPad.hx"
+			],
+			[
+				"iee",
+				"ext3/math/IEEE754.hx"
+			],
+			[
+				"quer",
+				"lib/src/rg/query/Query.hx"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"tr",
+				"/Users/francoponticelli/Projects/reportgrid/test/account/account.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 230.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

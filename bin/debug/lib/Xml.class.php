@@ -1,0 +1,329 @@
+<?php
+
+class Xml {
+	public function __construct($fromCustomParser = null) {
+		if(!php_Boot::$skip_constructor) {
+		if($fromCustomParser === null) {
+			$fromCustomParser = false;
+		}
+		$this->_fromCustomParser = $fromCustomParser;
+	}}
+	public function toString() {
+		if($this->nodeType == Xml::$PCData) {
+			return Xml_0($this);
+		}
+		$s = "";
+		if($this->nodeType == Xml::$Element) {
+			$s .= "<";
+			$s .= _hx_string_or_null($this->_nodeName);
+			if(null == $this->_attributes) throw new HException('null iterable');
+			$__hx__it = $this->_attributes->keys();
+			while($__hx__it->hasNext()) {
+				$k = $__hx__it->next();
+				$s .= " ";
+				$s .= _hx_string_or_null($k);
+				$s .= "=\"";
+				$s .= _hx_string_or_null($this->_attributes->get($k));
+				$s .= "\"";
+			}
+			if($this->_children->length === 0) {
+				$s .= "/>";
+				return $s;
+			}
+			$s .= ">";
+		} else {
+			if($this->nodeType == Xml::$CData) {
+				return "<![CDATA[" . _hx_string_or_null($this->_nodeValue) . "]]>";
+			} else {
+				if($this->nodeType == Xml::$Comment) {
+					return "<!--" . _hx_string_or_null($this->_nodeValue) . "-->";
+				} else {
+					if($this->nodeType == Xml::$DocType) {
+						return "<!DOCTYPE " . _hx_string_or_null($this->_nodeValue) . ">";
+					} else {
+						if($this->nodeType == Xml::$ProcessingInstruction) {
+							return "<?" . _hx_string_or_null($this->_nodeValue) . "?>";
+						}
+					}
+				}
+			}
+		}
+		if(null == $this) throw new HException('null iterable');
+		$__hx__it = $this->iterator();
+		while($__hx__it->hasNext()) {
+			$x = $__hx__it->next();
+			$s .= _hx_string_or_null($x->toString());
+		}
+		if($this->nodeType == Xml::$Element) {
+			$s .= "</";
+			$s .= _hx_string_or_null($this->_nodeName);
+			$s .= ">";
+		}
+		return $s;
+	}
+	public function insertChild($x, $pos) {
+		if($this->_children === null) {
+			throw new HException("bad nodetype");
+		}
+		if($x->_parent !== null) {
+			$x->_parent->_children->remove($x);
+		}
+		$x->_parent = $this;
+		$this->_children->insert($pos, $x);
+	}
+	public function addChild($x) {
+		if($this->_children === null) {
+			throw new HException("bad nodetype");
+		}
+		if($x->_parent !== null) {
+			$x->_parent->_children->remove($x);
+		}
+		$x->_parent = $this;
+		$this->_children->push($x);
+	}
+	public function firstElement() {
+		if($this->_children === null) {
+			throw new HException("bad nodetype");
+		}
+		{
+			$_g = 0; $_g1 = $this->_children;
+			while($_g < $_g1->length) {
+				$child = $_g1[$_g];
+				++$_g;
+				if($child->nodeType == Xml::$Element) {
+					return $child;
+				}
+				unset($child);
+			}
+		}
+		return null;
+	}
+	public function elementsNamed($name) {
+		if($this->_children === null) {
+			throw new HException("bad nodetype");
+		}
+		return Lambda::filter($this->_children, array(new _hx_lambda(array(&$name), "Xml_1"), 'execute'))->iterator();
+	}
+	public function elements() {
+		if($this->_children === null) {
+			throw new HException("bad nodetype");
+		}
+		return Lambda::filter($this->_children, array(new _hx_lambda(array(), "Xml_2"), 'execute'))->iterator();
+	}
+	public function iterator() {
+		if($this->_children === null) {
+			throw new HException("bad nodetype");
+		}
+		return $this->_children->iterator();
+	}
+	public function exists($att) {
+		if($this->nodeType != Xml::$Element) {
+			throw new HException("bad nodeType");
+		}
+		return $this->_attributes->exists($att);
+	}
+	public function set($att, $value) {
+		if($this->nodeType != Xml::$Element) {
+			throw new HException("bad nodeType");
+		}
+		$this->_attributes->set($att, Xml::__decodeattr($value));
+	}
+	public function get($att) {
+		if($this->nodeType != Xml::$Element) {
+			throw new HException("bad nodeType");
+		}
+		return $this->_attributes->get($att);
+	}
+	public function set_nodeValue($v) {
+		if($this->nodeType == Xml::$Element || $this->nodeType == Xml::$Document) {
+			throw new HException("bad nodeType");
+		}
+		return $this->_nodeValue = $v;
+	}
+	public function get_nodeValue() {
+		if($this->nodeType == Xml::$Element || $this->nodeType == Xml::$Document) {
+			throw new HException("bad nodeType");
+		}
+		return $this->_nodeValue;
+	}
+	public function set_nodeName($n) {
+		if($this->nodeType != Xml::$Element) {
+			throw new HException("bad nodeType");
+		}
+		return $this->_nodeName = $n;
+	}
+	public function get_nodeName() {
+		if($this->nodeType != Xml::$Element) {
+			throw new HException("bad nodeType");
+		}
+		return $this->_nodeName;
+	}
+	public $_fromCustomParser;
+	public $_parent;
+	public $_children;
+	public $_attributes;
+	public $_nodeValue;
+	public $_nodeName;
+	public $nodeType;
+	public function __call($m, $a) {
+		if(isset($this->$m) && is_callable($this->$m))
+			return call_user_func_array($this->$m, $a);
+		else if(isset($this->__dynamics[$m]) && is_callable($this->__dynamics[$m]))
+			return call_user_func_array($this->__dynamics[$m], $a);
+		else if('toString' == $m)
+			return $this->__toString();
+		else
+			throw new HException('Unable to call <'.$m.'>');
+	}
+	static $Element;
+	static $PCData;
+	static $CData;
+	static $Comment;
+	static $DocType;
+	static $ProcessingInstruction;
+	static $Document;
+	static $build;
+	static function __start_element_handler($parser, $name, $attribs) {
+		$node = Xml::createElement($name);
+		foreach($attribs as $k => $v) $node->set($k, $v);
+		Xml::$build->addChild($node);
+		Xml::$build = $node;
+	}
+	static function __end_element_handler($parser, $name) {
+		Xml::$build = Xml::$build->_parent;
+	}
+	static function __decodeattr($value) {
+		return str_replace("'", "&apos;", htmlspecialchars($value, ENT_COMPAT, "UTF-8"));
+	}
+	static function __decodeent($value) {
+		return str_replace("'", "&apos;", htmlentities($value, ENT_COMPAT, "UTF-8"));
+	}
+	static function __character_data_handler($parser, $data) {
+		$d = Xml::__decodeent($data);
+		if(strlen($data) === 1 && $d !== $data || $d === $data) {
+			$last = Xml::$build->_children[Xml::$build->_children->length - 1];
+			if(null !== $last && $last->nodeType == Xml::$PCData) {
+				$_g = $last;
+				$_g->set_nodeValue(_hx_string_or_null($_g->get_nodeValue()) . _hx_string_or_null($d));
+			} else {
+				Xml::$build->addChild(Xml::createPCData($d));
+			}
+		} else {
+			Xml::$build->addChild(Xml::createCData($data));
+		}
+	}
+	static function __default_handler($parser, $data) {
+		if($data === "<![CDATA[") {
+			return;
+		}
+		if($data === "]]>") {
+			return;
+		}
+		if("<!--" === _hx_substr($data, 0, 4)) {
+			Xml::$build->addChild(Xml::createComment(_hx_substr($data, 4, strlen($data) - 7)));
+		} else {
+			Xml::$build->addChild(Xml::createPCData($data));
+		}
+	}
+	static $reHeader;
+	static function parse($str) {
+		Xml::$build = Xml::createDocument();
+		$xml_parser = xml_parser_create();
+		xml_set_element_handler($xml_parser, (isset(Xml::$__start_element_handler) ? Xml::$__start_element_handler: array("Xml", "__start_element_handler")), (isset(Xml::$__end_element_handler) ? Xml::$__end_element_handler: array("Xml", "__end_element_handler")));
+		xml_set_character_data_handler($xml_parser, (isset(Xml::$__character_data_handler) ? Xml::$__character_data_handler: array("Xml", "__character_data_handler")));
+		xml_set_default_handler($xml_parser, (isset(Xml::$__default_handler) ? Xml::$__default_handler: array("Xml", "__default_handler")));
+		xml_parser_set_option($xml_parser, XML_OPTION_CASE_FOLDING, 0);
+		xml_parser_set_option($xml_parser, XML_OPTION_SKIP_WHITE, 0);
+		Xml::$reHeader->match($str);
+		$str = "<doc>" . _hx_string_or_null(Xml::$reHeader->matchedRight()) . "</doc>";
+		if(1 !== xml_parse($xml_parser, $str, true)) {
+			throw new HException("Xml parse error (" . _hx_string_or_null((_hx_string_or_null(xml_error_string(xml_get_error_code($xml_parser))) . ") line #" . _hx_string_or_null(xml_get_current_line_number($xml_parser)))));
+		}
+		xml_parser_free($xml_parser);
+		Xml::$build = Xml::$build->_children[0];
+		Xml::$build->_parent = null;
+		Xml::$build->_nodeName = null;
+		Xml::$build->nodeType = Xml::$Document;
+		$doctype = Xml::$reHeader->matched(2);
+		if(null !== $doctype) {
+			Xml::$build->insertChild(Xml::createDocType($doctype), 0);
+		}
+		$ProcessingInstruction = Xml::$reHeader->matched(1);
+		if(null !== $ProcessingInstruction) {
+			Xml::$build->insertChild(Xml::createProcessingInstruction($ProcessingInstruction), 0);
+		}
+		return Xml::$build;
+	}
+	static function createElement($name) {
+		$r = new Xml(null);
+		$r->nodeType = Xml::$Element;
+		$r->_children = new _hx_array(array());
+		$r->_attributes = new haxe_ds_StringMap();
+		$r->set_nodeName($name);
+		return $r;
+	}
+	static function createPCData($data) {
+		$r = new Xml(null);
+		$r->nodeType = Xml::$PCData;
+		$r->set_nodeValue($data);
+		return $r;
+	}
+	static function createCData($data) {
+		$r = new Xml(null);
+		$r->nodeType = Xml::$CData;
+		$r->set_nodeValue($data);
+		return $r;
+	}
+	static function createComment($data) {
+		$r = new Xml(null);
+		$r->nodeType = Xml::$Comment;
+		$r->set_nodeValue($data);
+		return $r;
+	}
+	static function createDocType($data) {
+		$r = new Xml(null);
+		$r->nodeType = Xml::$DocType;
+		$r->set_nodeValue($data);
+		return $r;
+	}
+	static function createProcessingInstruction($data) {
+		$r = new Xml(null);
+		$r->nodeType = Xml::$ProcessingInstruction;
+		$r->set_nodeValue($data);
+		return $r;
+	}
+	static function createDocument() {
+		$r = new Xml(null);
+		$r->nodeType = Xml::$Document;
+		$r->_children = new _hx_array(array());
+		return $r;
+	}
+	function __toString() { return $this->toString(); }
+}
+{
+	Xml::$Element = "element";
+	Xml::$PCData = "pcdata";
+	Xml::$CData = "cdata";
+	Xml::$Comment = "comment";
+	Xml::$DocType = "doctype";
+	Xml::$ProcessingInstruction = "processingInstruction";
+	Xml::$Document = "document";
+}
+Xml::$reHeader = new EReg("\\s*(?:<\\?(.+?)\\?>)?(?:<!DOCTYPE ([^>]+)>)?", "mi");
+function Xml_0(&$__hx__this) {
+	if($__hx__this->_fromCustomParser) {
+		return StringTools::htmlEscape($__hx__this->_nodeValue, null);
+	} else {
+		return $__hx__this->_nodeValue;
+	}
+}
+function Xml_1(&$name, $child) {
+	{
+		return $child->nodeType == Xml::$Element && $child->get_nodeName() === $name;
+	}
+}
+function Xml_2($child) {
+	{
+		return $child->nodeType == Xml::$Element;
+	}
+}

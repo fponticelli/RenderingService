@@ -1,0 +1,11 @@
+-cp src
+-cp erazor
+-cp thx
+-cp ufront
+-cp hxevents
+-lib hscript
+-D ufront
+-D erazor
+-main App
+-php bin/debug
+-cmd cp -r css bin/debug/css

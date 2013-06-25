@@ -1,0 +1,29 @@
+<?php
+
+class haxe_Utf8 {
+	public function __construct($size = null) {
+		if(!php_Boot::$skip_constructor) {
+		$this->__b = "";
+	}}
+	public function toString() {
+		return $this->__b;
+	}
+	public function addChar($c) {
+		$this->__b .= _hx_string_or_null(haxe_Utf8::uchr($c));
+	}
+	public $__b;
+	public function __call($m, $a) {
+		if(isset($this->$m) && is_callable($this->$m))
+			return call_user_func_array($this->$m, $a);
+		else if(isset($this->__dynamics[$m]) && is_callable($this->__dynamics[$m]))
+			return call_user_func_array($this->__dynamics[$m], $a);
+		else if('toString' == $m)
+			return $this->__toString();
+		else
+			throw new HException('Unable to call <'.$m.'>');
+	}
+	static function uchr($i) {
+		return mb_convert_encoding(pack('N',$i), 'UTF-8', 'UCS-4BE');
+	}
+	function __toString() { return $this->toString(); }
+}
